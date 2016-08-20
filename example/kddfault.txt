@@ -1,0 +1,21 @@
+{  
+   "requirementId":"req1",
+   "listOfFaultDetectionConditions":[  
+      {  
+         "conditionId":"cond1",
+         "deviceId":"d01",
+         "objectId":"o001",
+         "parameterKey":"ligt_intensity_metric",
+         "operator":"<=",
+         "comparedValue":"0"
+      },
+      {  
+         "conditionId":"cond2",
+         "deviceId":"d01",
+         "objectId":"o002",
+         "parameterKey":"light_bulb_status",
+         "operator":"=",
+         "comparedValue":"active"
+      }
+   ]
+}
